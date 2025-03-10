@@ -34,7 +34,7 @@ pipeline {
 
 					-Dsonar.host.url=http://3.111.17.135:9000 \
 
-					-Dsonar.login=${SONAR_TOKEN)
+					-Dsonar.login=${SONAR_TOKEN}
 					"""	
 				}
 			}
