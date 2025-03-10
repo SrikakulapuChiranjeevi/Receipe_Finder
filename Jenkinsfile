@@ -12,7 +12,7 @@ pipeline {
 			}
 		stage('Unit Test'){
 			steps {
-				sh 'npm jest'
+				sh 'npm test'
 				sh 'npm install'
 			}
 		}
